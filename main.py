@@ -28,7 +28,7 @@ print(dict)
 # key exist
 is_key_k2_exist = 'k2' in dict # 可以寫得像下方，但會提示你別這樣
 print(is_key_k2_exist)
-# value exist: https://flexiple.com/python/check-if-key-exists-in-dictionary-python
+# value exist
 is_key_v2_exist = 'v2' in dict.values()
 print(is_key_v2_exist)
 
