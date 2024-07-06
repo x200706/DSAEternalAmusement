@@ -73,7 +73,7 @@ str = 'meow'
 new_str = str[0:3]
 print(new_str)  # meo
 
-# 做顆樹（應用：建立實體並傳入TreeNode）: https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm
+# `pass書目會教` 做顆樹（應用：建立實體並傳入TreeNode）: https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm
 
 # 其他參考資料
 # https://www.stationx.net/python-data-structures-cheat-sheet/
