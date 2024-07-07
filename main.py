@@ -53,6 +53,7 @@ print(list_as_stack)
 # push
 list_as_stack.append(11)
 print(list_as_stack)
+# (peek)
 
 # ✅heap: https://weikaiwei.com/algorithm/heap/
 # Python提供了最小堆積（最小的總是在下方）
