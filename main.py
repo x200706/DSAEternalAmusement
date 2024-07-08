@@ -25,12 +25,15 @@ print(dict.values())
 # 移除鍵值對
 dict.pop('k')
 print(dict)
-# key exist
+# key exist，為了避免keyError在取值前要做這樣的事情
 is_key_k2_exist = 'k2' in dict # 可以寫得像下方，但會提示你別這樣
 print(is_key_k2_exist)
 # value exist
 is_key_v2_exist = 'v2' in dict.values()
 print(is_key_v2_exist)
+# kv foreach
+for k, v in dict.items():
+    print(k, v)
 
 # ✅隊列又叫佇列 先進先出結構
 # queue單向隊列 頭消尾插；deque雙向隊列 頭尾皆可pop push
