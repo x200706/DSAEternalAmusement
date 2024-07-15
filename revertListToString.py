@@ -29,3 +29,5 @@ def revertItRecursion(list, list_len):
     return str(list[list_len - 1]) + str(revertItRecursion(list, list_len - 1))
 
 print(revertItRecursion(list, len(list)))
+
+# 邊界條件是終止條件
