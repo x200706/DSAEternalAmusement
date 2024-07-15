@@ -56,7 +56,8 @@ print(list_as_stack)
 # push
 list_as_stack.append(11)
 print(list_as_stack)
-# (peek)
+# peek
+print(list_as_stack[len(list_as_stack)-1])
 
 # ✅heap: https://weikaiwei.com/algorithm/heap/
 # Python提供了最小堆積（最小的總是在下方）
@@ -76,6 +77,15 @@ print(set) # 1, 2
 str = 'meow'
 new_str = str[0:3]
 print(new_str)  # meo
+
+# ✅String to List
+s = "你好 喔"
+x = list(s)
+print(x)
+y = s.split(" ")
+print(y)
+
+# Python三元運算
 
 # `pass書目會教` 做顆樹（應用：建立實體並傳入TreeNode）: https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm
 

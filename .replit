@@ -1,4 +1,4 @@
-entrypoint = "stack-mini_text_editor.py" # 想跑甚麼程式就直接改這邊
+entrypoint = "isValidBrackets.py" # 想跑甚麼程式就直接改這邊
 modules = ["python-3.10"]
 
 [nix]
