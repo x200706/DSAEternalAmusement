@@ -1,4 +1,4 @@
-entrypoint = "revertListToString.py" # 想跑甚麼程式就直接改這邊
+entrypoint = "factorial.py" # 想跑甚麼程式就直接改這邊
 modules = ["python-3.10"]
 
 [nix]

@@ -85,7 +85,14 @@ print(x)
 y = s.split(" ")
 print(y)
 
-# Python三元運算
+# ✅Python三元運算
+boolean =  1 > 0 if True else False
+print(boolean)
+
+# ✅python逆迴圈寫法1 太不直覺了...
+# for i in range(len(list)-1, -1, -1):
+# python逆迴圈寫法2，這個好一點 另外range(0, 4)是0 1 2 3，就是其他語言的i < 4
+# for i in reversed(range(0, len(list))): 
 
 # `pass書目會教` 做顆樹（應用：建立實體並傳入TreeNode）: https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm
 
